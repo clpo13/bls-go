@@ -1,0 +1,2743 @@
+{
+    "status": "REQUEST_SUCCEEDED",
+    "responseTime": 1017,
+    "message": [],
+    "Results": {
+        "series": [
+            {
+                "seriesID": "LAUCN040010000000006",
+                "catalog": {
+                    "series_title": "Labor Force: Apache County, AZ (U)",
+                    "series_id": "LAUCN040010000000006",
+                    "seasonality": "Not Seasonally Adjusted",
+                    "survey_name": "Local Area Unemployment Statistics",
+                    "survey_abbreviation": "LA",
+                    "measure_data_type": "labor force",
+                    "area": "Apache County, AZ",
+                    "area_type": "Counties and equivalents"
+                },
+                "data": [
+                    {
+                        "year": "2013",
+                        "period": "M13",
+                        "periodName": "Annual",
+                        "value": "21829",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "534",
+                                "3": "492",
+                                "6": "-287",
+                                "12": "-977"
+                            },
+                            "pct_changes": {
+                                "1": "2.5",
+                                "3": "2.3",
+                                "6": "-1.3",
+                                "12": "-4.3"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M12",
+                        "periodName": "December",
+                        "value": "21295",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "301",
+                                "3": "-536",
+                                "6": "-1191",
+                                "12": "-1056"
+                            },
+                            "pct_changes": {
+                                "1": "1.4",
+                                "3": "-2.5",
+                                "6": "-5.3",
+                                "12": "-4.7"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M11",
+                        "periodName": "November",
+                        "value": "20994",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-343",
+                                "3": "-1301",
+                                "6": "-1196",
+                                "12": "-1204"
+                            },
+                            "pct_changes": {
+                                "1": "-1.6",
+                                "3": "-5.8",
+                                "6": "-5.4",
+                                "12": "-5.4"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M10",
+                        "periodName": "October",
+                        "value": "21337",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-494",
+                                "3": "-779",
+                                "6": "-441",
+                                "12": "-1453"
+                            },
+                            "pct_changes": {
+                                "1": "-2.3",
+                                "3": "-3.5",
+                                "6": "-2.0",
+                                "12": "-6.4"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M09",
+                        "periodName": "September",
+                        "value": "21831",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-464",
+                                "3": "-655",
+                                "6": "172",
+                                "12": "-1356"
+                            },
+                            "pct_changes": {
+                                "1": "-2.1",
+                                "3": "-2.9",
+                                "6": "0.8",
+                                "12": "-5.8"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M08",
+                        "periodName": "August",
+                        "value": "22295",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "179",
+                                "3": "105",
+                                "6": "514",
+                                "12": "-1277"
+                            },
+                            "pct_changes": {
+                                "1": "0.8",
+                                "3": "0.5",
+                                "6": "2.4",
+                                "12": "-5.4"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M07",
+                        "periodName": "July",
+                        "value": "22116",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-370",
+                                "3": "338",
+                                "6": "-80",
+                                "12": "-1788"
+                            },
+                            "pct_changes": {
+                                "1": "-1.6",
+                                "3": "1.6",
+                                "6": "-0.4",
+                                "12": "-7.5"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M06",
+                        "periodName": "June",
+                        "value": "22486",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "296",
+                                "3": "827",
+                                "6": "135",
+                                "12": "-797"
+                            },
+                            "pct_changes": {
+                                "1": "1.3",
+                                "3": "3.8",
+                                "6": "0.6",
+                                "12": "-3.4"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M05",
+                        "periodName": "May",
+                        "value": "22190",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "412",
+                                "3": "409",
+                                "6": "-8",
+                                "12": "-449"
+                            },
+                            "pct_changes": {
+                                "1": "1.9",
+                                "3": "1.9",
+                                "6": "0.0",
+                                "12": "-2.0"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M04",
+                        "periodName": "April",
+                        "value": "21778",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "119",
+                                "3": "-418",
+                                "6": "-1012",
+                                "12": "-578"
+                            },
+                            "pct_changes": {
+                                "1": "0.5",
+                                "3": "-1.9",
+                                "6": "-4.4",
+                                "12": "-2.6"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M03",
+                        "periodName": "March",
+                        "value": "21659",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-122",
+                                "3": "-692",
+                                "6": "-1528",
+                                "12": "-772"
+                            },
+                            "pct_changes": {
+                                "1": "-0.6",
+                                "3": "-3.1",
+                                "6": "-6.6",
+                                "12": "-3.4"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M02",
+                        "periodName": "February",
+                        "value": "21781",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-415",
+                                "3": "-417",
+                                "6": "-1791",
+                                "12": "-569"
+                            },
+                            "pct_changes": {
+                                "1": "-1.9",
+                                "3": "-1.9",
+                                "6": "-7.6",
+                                "12": "-2.5"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M01",
+                        "periodName": "January",
+                        "value": "22196",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-155",
+                                "3": "-594",
+                                "6": "-1708",
+                                "12": "-407"
+                            },
+                            "pct_changes": {
+                                "1": "-0.7",
+                                "3": "-2.6",
+                                "6": "-7.1",
+                                "12": "-1.8"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M13",
+                        "periodName": "Annual",
+                        "value": "22806",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "455",
+                                "3": "16",
+                                "6": "-1098",
+                                "12": "-234"
+                            },
+                            "pct_changes": {
+                                "1": "2.0",
+                                "3": "0.1",
+                                "6": "-4.6",
+                                "12": "-1.0"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M12",
+                        "periodName": "December",
+                        "value": "22351",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "153",
+                                "3": "-836",
+                                "6": "-932",
+                                "12": "-600"
+                            },
+                            "pct_changes": {
+                                "1": "0.7",
+                                "3": "-3.6",
+                                "6": "-4.0",
+                                "12": "-2.6"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M11",
+                        "periodName": "November",
+                        "value": "22198",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-592",
+                                "3": "-1374",
+                                "6": "-441",
+                                "12": "-555"
+                            },
+                            "pct_changes": {
+                                "1": "-2.6",
+                                "3": "-5.8",
+                                "6": "-1.9",
+                                "12": "-2.4"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M10",
+                        "periodName": "October",
+                        "value": "22790",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-397",
+                                "3": "-1114",
+                                "6": "434",
+                                "12": "-320"
+                            },
+                            "pct_changes": {
+                                "1": "-1.7",
+                                "3": "-4.7",
+                                "6": "1.9",
+                                "12": "-1.4"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M09",
+                        "periodName": "September",
+                        "value": "23187",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-385",
+                                "3": "-96",
+                                "6": "756",
+                                "12": "-202"
+                            },
+                            "pct_changes": {
+                                "1": "-1.6",
+                                "3": "-0.4",
+                                "6": "3.4",
+                                "12": "-0.9"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M08",
+                        "periodName": "August",
+                        "value": "23572",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-332",
+                                "3": "933",
+                                "6": "1222",
+                                "12": "-157"
+                            },
+                            "pct_changes": {
+                                "1": "-1.4",
+                                "3": "4.1",
+                                "6": "5.5",
+                                "12": "-0.7"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M07",
+                        "periodName": "July",
+                        "value": "23904",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "621",
+                                "3": "1548",
+                                "6": "1301",
+                                "12": "217"
+                            },
+                            "pct_changes": {
+                                "1": "2.7",
+                                "3": "6.9",
+                                "6": "5.8",
+                                "12": "0.9"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M06",
+                        "periodName": "June",
+                        "value": "23283",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "644",
+                                "3": "852",
+                                "6": "332",
+                                "12": "-370"
+                            },
+                            "pct_changes": {
+                                "1": "2.8",
+                                "3": "3.8",
+                                "6": "1.4",
+                                "12": "-1.6"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M05",
+                        "periodName": "May",
+                        "value": "22639",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "283",
+                                "3": "289",
+                                "6": "-114",
+                                "12": "36"
+                            },
+                            "pct_changes": {
+                                "1": "1.3",
+                                "3": "1.3",
+                                "6": "-0.5",
+                                "12": "0.2"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M04",
+                        "periodName": "April",
+                        "value": "22356",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-75",
+                                "3": "-247",
+                                "6": "-754",
+                                "12": "-174"
+                            },
+                            "pct_changes": {
+                                "1": "-0.3",
+                                "3": "-1.1",
+                                "6": "-3.3",
+                                "12": "-0.8"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M03",
+                        "periodName": "March",
+                        "value": "22431",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "81",
+                                "3": "-520",
+                                "6": "-958",
+                                "12": "-213"
+                            },
+                            "pct_changes": {
+                                "1": "0.4",
+                                "3": "-2.3",
+                                "6": "-4.1",
+                                "12": "-0.9"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M02",
+                        "periodName": "February",
+                        "value": "22350",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-253",
+                                "3": "-403",
+                                "6": "-1379",
+                                "12": "-264"
+                            },
+                            "pct_changes": {
+                                "1": "-1.1",
+                                "3": "-1.8",
+                                "6": "-5.8",
+                                "12": "-1.2"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M01",
+                        "periodName": "January",
+                        "value": "22603",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-348",
+                                "3": "-507",
+                                "6": "-1084",
+                                "12": "-217"
+                            },
+                            "pct_changes": {
+                                "1": "-1.5",
+                                "3": "-2.2",
+                                "6": "-4.6",
+                                "12": "-1.0"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M13",
+                        "periodName": "Annual",
+                        "value": "23040",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "89",
+                                "3": "-70",
+                                "6": "-647",
+                                "12": "-398"
+                            },
+                            "pct_changes": {
+                                "1": "0.4",
+                                "3": "-0.3",
+                                "6": "-2.7",
+                                "12": "-1.7"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M12",
+                        "periodName": "December",
+                        "value": "22951",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "198",
+                                "3": "-438",
+                                "6": "-702",
+                                "12": "260"
+                            },
+                            "pct_changes": {
+                                "1": "0.9",
+                                "3": "-1.9",
+                                "6": "-3.0",
+                                "12": "1.1"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M11",
+                        "periodName": "November",
+                        "value": "22753",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-357",
+                                "3": "-976",
+                                "6": "150",
+                                "12": "-66"
+                            },
+                            "pct_changes": {
+                                "1": "-1.5",
+                                "3": "-4.1",
+                                "6": "0.7",
+                                "12": "-0.3"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M10",
+                        "periodName": "October",
+                        "value": "23110",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-279",
+                                "3": "-577",
+                                "6": "580",
+                                "12": "85"
+                            },
+                            "pct_changes": {
+                                "1": "-1.2",
+                                "3": "-2.4",
+                                "6": "2.6",
+                                "12": "0.4"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M09",
+                        "periodName": "September",
+                        "value": "23389",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-340",
+                                "3": "-264",
+                                "6": "745",
+                                "12": "-147"
+                            },
+                            "pct_changes": {
+                                "1": "-1.4",
+                                "3": "-1.1",
+                                "6": "3.3",
+                                "12": "-0.6"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M08",
+                        "periodName": "August",
+                        "value": "23729",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "42",
+                                "3": "1126",
+                                "6": "1115",
+                                "12": "-412"
+                            },
+                            "pct_changes": {
+                                "1": "0.2",
+                                "3": "5.0",
+                                "6": "4.9",
+                                "12": "-1.7"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M07",
+                        "periodName": "July",
+                        "value": "23687",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "34",
+                                "3": "1157",
+                                "6": "867",
+                                "12": "-383"
+                            },
+                            "pct_changes": {
+                                "1": "0.1",
+                                "3": "5.1",
+                                "6": "3.8",
+                                "12": "-1.6"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M06",
+                        "periodName": "June",
+                        "value": "23653",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "1050",
+                                "3": "1009",
+                                "6": "962",
+                                "12": "-625"
+                            },
+                            "pct_changes": {
+                                "1": "4.6",
+                                "3": "4.5",
+                                "6": "4.2",
+                                "12": "-2.6"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M05",
+                        "periodName": "May",
+                        "value": "22603",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "73",
+                                "3": "-11",
+                                "6": "-216",
+                                "12": "-778"
+                            },
+                            "pct_changes": {
+                                "1": "0.3",
+                                "3": "0.0",
+                                "6": "-0.9",
+                                "12": "-3.3"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M04",
+                        "periodName": "April",
+                        "value": "22530",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-114",
+                                "3": "-290",
+                                "6": "-495",
+                                "12": "-1039"
+                            },
+                            "pct_changes": {
+                                "1": "-0.5",
+                                "3": "-1.3",
+                                "6": "-2.1",
+                                "12": "-4.4"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M03",
+                        "periodName": "March",
+                        "value": "22644",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "30",
+                                "3": "-47",
+                                "6": "-892",
+                                "12": "-565"
+                            },
+                            "pct_changes": {
+                                "1": "0.1",
+                                "3": "-0.2",
+                                "6": "-3.8",
+                                "12": "-2.4"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M02",
+                        "periodName": "February",
+                        "value": "22614",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-206",
+                                "3": "-205",
+                                "6": "-1527",
+                                "12": "-542"
+                            },
+                            "pct_changes": {
+                                "1": "-0.9",
+                                "3": "-0.9",
+                                "6": "-6.3",
+                                "12": "-2.3"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M01",
+                        "periodName": "January",
+                        "value": "22820",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "129",
+                                "3": "-205",
+                                "6": "-1250",
+                                "12": "-554"
+                            },
+                            "pct_changes": {
+                                "1": "0.6",
+                                "3": "-0.9",
+                                "6": "-5.2",
+                                "12": "-2.4"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M13",
+                        "periodName": "Annual",
+                        "value": "23438",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "747",
+                                "3": "413",
+                                "6": "-632",
+                                "12": "500"
+                            },
+                            "pct_changes": {
+                                "1": "3.3",
+                                "3": "1.8",
+                                "6": "-2.6",
+                                "12": "2.2"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M12",
+                        "periodName": "December",
+                        "value": "22691",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-128",
+                                "3": "-845",
+                                "6": "-1587",
+                                "12": "-216"
+                            },
+                            "pct_changes": {
+                                "1": "-0.6",
+                                "3": "-3.6",
+                                "6": "-6.5",
+                                "12": "-0.9"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M11",
+                        "periodName": "November",
+                        "value": "22819",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-206",
+                                "3": "-1322",
+                                "6": "-562",
+                                "12": "-80"
+                            },
+                            "pct_changes": {
+                                "1": "-0.9",
+                                "3": "-5.5",
+                                "6": "-2.4",
+                                "12": "-0.3"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M10",
+                        "periodName": "October",
+                        "value": "23025",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-511",
+                                "3": "-1045",
+                                "6": "-544",
+                                "12": "-109"
+                            },
+                            "pct_changes": {
+                                "1": "-2.2",
+                                "3": "-4.3",
+                                "6": "-2.3",
+                                "12": "-0.5"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M09",
+                        "periodName": "September",
+                        "value": "23536",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-605",
+                                "3": "-742",
+                                "6": "327",
+                                "12": "60"
+                            },
+                            "pct_changes": {
+                                "1": "-2.5",
+                                "3": "-3.1",
+                                "6": "1.4",
+                                "12": "0.3"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M08",
+                        "periodName": "August",
+                        "value": "24141",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "71",
+                                "3": "760",
+                                "6": "985",
+                                "12": "-255"
+                            },
+                            "pct_changes": {
+                                "1": "0.3",
+                                "3": "3.3",
+                                "6": "4.3",
+                                "12": "-1.0"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M07",
+                        "periodName": "July",
+                        "value": "24070",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-208",
+                                "3": "501",
+                                "6": "696",
+                                "12": "-201"
+                            },
+                            "pct_changes": {
+                                "1": "-0.9",
+                                "3": "2.1",
+                                "6": "3.0",
+                                "12": "-0.8"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M06",
+                        "periodName": "June",
+                        "value": "24278",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "897",
+                                "3": "1069",
+                                "6": "1371",
+                                "12": "831"
+                            },
+                            "pct_changes": {
+                                "1": "3.8",
+                                "3": "4.6",
+                                "6": "6.0",
+                                "12": "3.5"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M05",
+                        "periodName": "May",
+                        "value": "23381",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-188",
+                                "3": "225",
+                                "6": "482",
+                                "12": "911"
+                            },
+                            "pct_changes": {
+                                "1": "-0.8",
+                                "3": "1.0",
+                                "6": "2.1",
+                                "12": "4.1"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M04",
+                        "periodName": "April",
+                        "value": "23569",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "360",
+                                "3": "195",
+                                "6": "435",
+                                "12": "1224"
+                            },
+                            "pct_changes": {
+                                "1": "1.6",
+                                "3": "0.8",
+                                "6": "1.9",
+                                "12": "5.5"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M03",
+                        "periodName": "March",
+                        "value": "23209",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "53",
+                                "3": "302",
+                                "6": "-267",
+                                "12": "1300"
+                            },
+                            "pct_changes": {
+                                "1": "0.2",
+                                "3": "1.3",
+                                "6": "-1.1",
+                                "12": "5.9"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M02",
+                        "periodName": "February",
+                        "value": "23156",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-218",
+                                "3": "257",
+                                "6": "-1240",
+                                "12": "1146"
+                            },
+                            "pct_changes": {
+                                "1": "-0.9",
+                                "3": "1.1",
+                                "6": "-5.1",
+                                "12": "5.2"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M01",
+                        "periodName": "January",
+                        "value": "23374",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "467",
+                                "3": "240",
+                                "6": "-897",
+                                "12": "1382"
+                            },
+                            "pct_changes": {
+                                "1": "2.0",
+                                "3": "1.0",
+                                "6": "-3.7",
+                                "12": "6.3"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesID": "LAUCN040010000000005",
+                "catalog": {
+                    "series_title": "Employment: Apache County, AZ (U)",
+                    "series_id": "LAUCN040010000000005",
+                    "seasonality": "Not Seasonally Adjusted",
+                    "survey_name": "Local Area Unemployment Statistics",
+                    "survey_abbreviation": "LA",
+                    "measure_data_type": "employment",
+                    "area": "Apache County, AZ",
+                    "area_type": "Counties and equivalents"
+                },
+                "data": [
+                    {
+                        "year": "2013",
+                        "period": "M13",
+                        "periodName": "Annual",
+                        "value": "17813",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "302",
+                                "3": "490",
+                                "6": "54",
+                                "12": "-669"
+                            },
+                            "pct_changes": {
+                                "1": "1.7",
+                                "3": "2.8",
+                                "6": "0.3",
+                                "12": "-3.6"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M12",
+                        "periodName": "December",
+                        "value": "17511",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "327",
+                                "3": "-414",
+                                "6": "-633",
+                                "12": "-760"
+                            },
+                            "pct_changes": {
+                                "1": "1.9",
+                                "3": "-2.3",
+                                "6": "-3.5",
+                                "12": "-4.2"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M11",
+                        "periodName": "November",
+                        "value": "17184",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-139",
+                                "3": "-1078",
+                                "6": "-1085",
+                                "12": "-1040"
+                            },
+                            "pct_changes": {
+                                "1": "-0.8",
+                                "3": "-5.9",
+                                "6": "-5.9",
+                                "12": "-5.7"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M10",
+                        "periodName": "October",
+                        "value": "17323",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-602",
+                                "3": "-436",
+                                "6": "-586",
+                                "12": "-1282"
+                            },
+                            "pct_changes": {
+                                "1": "-3.4",
+                                "3": "-2.5",
+                                "6": "-3.3",
+                                "12": "-6.9"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M09",
+                        "periodName": "September",
+                        "value": "17925",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-337",
+                                "3": "-219",
+                                "6": "196",
+                                "12": "-1066"
+                            },
+                            "pct_changes": {
+                                "1": "-1.8",
+                                "3": "-1.2",
+                                "6": "1.1",
+                                "12": "-5.6"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M08",
+                        "periodName": "August",
+                        "value": "18262",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "503",
+                                "3": "-7",
+                                "6": "457",
+                                "12": "-698"
+                            },
+                            "pct_changes": {
+                                "1": "2.8",
+                                "3": "0.0",
+                                "6": "2.6",
+                                "12": "-3.7"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M07",
+                        "periodName": "July",
+                        "value": "17759",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-385",
+                                "3": "-150",
+                                "6": "-182",
+                                "12": "-1129"
+                            },
+                            "pct_changes": {
+                                "1": "-2.1",
+                                "3": "-0.8",
+                                "6": "-1.0",
+                                "12": "-6.0"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M06",
+                        "periodName": "June",
+                        "value": "18144",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-125",
+                                "3": "415",
+                                "6": "-127",
+                                "12": "-485"
+                            },
+                            "pct_changes": {
+                                "1": "-0.7",
+                                "3": "2.3",
+                                "6": "-0.7",
+                                "12": "-2.6"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M05",
+                        "periodName": "May",
+                        "value": "18269",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "360",
+                                "3": "464",
+                                "6": "45",
+                                "12": "-141"
+                            },
+                            "pct_changes": {
+                                "1": "2.0",
+                                "3": "2.6",
+                                "6": "0.2",
+                                "12": "-0.8"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M04",
+                        "periodName": "April",
+                        "value": "17909",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "180",
+                                "3": "-32",
+                                "6": "-696",
+                                "12": "-303"
+                            },
+                            "pct_changes": {
+                                "1": "1.0",
+                                "3": "-0.2",
+                                "6": "-3.7",
+                                "12": "-1.7"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M03",
+                        "periodName": "March",
+                        "value": "17729",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-76",
+                                "3": "-542",
+                                "6": "-1262",
+                                "12": "-520"
+                            },
+                            "pct_changes": {
+                                "1": "-0.4",
+                                "3": "-3.0",
+                                "6": "-6.6",
+                                "12": "-2.8"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M02",
+                        "periodName": "February",
+                        "value": "17805",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-136",
+                                "3": "-419",
+                                "6": "-1155",
+                                "12": "-329"
+                            },
+                            "pct_changes": {
+                                "1": "-0.8",
+                                "3": "-2.3",
+                                "6": "-6.1",
+                                "12": "-1.8"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2013",
+                        "period": "M01",
+                        "periodName": "January",
+                        "value": "17941",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-330",
+                                "3": "-664",
+                                "6": "-947",
+                                "12": "-267"
+                            },
+                            "pct_changes": {
+                                "1": "-1.8",
+                                "3": "-3.6",
+                                "6": "-5.0",
+                                "12": "-1.5"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M13",
+                        "periodName": "Annual",
+                        "value": "18482",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "211",
+                                "3": "-123",
+                                "6": "-406",
+                                "12": "-306"
+                            },
+                            "pct_changes": {
+                                "1": "1.2",
+                                "3": "-0.7",
+                                "6": "-2.1",
+                                "12": "-1.6"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M12",
+                        "periodName": "December",
+                        "value": "18271",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "47",
+                                "3": "-720",
+                                "6": "-358",
+                                "12": "-439"
+                            },
+                            "pct_changes": {
+                                "1": "0.3",
+                                "3": "-3.8",
+                                "6": "-1.9",
+                                "12": "-2.3"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M11",
+                        "periodName": "November",
+                        "value": "18224",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-381",
+                                "3": "-736",
+                                "6": "-186",
+                                "12": "-427"
+                            },
+                            "pct_changes": {
+                                "1": "-2.0",
+                                "3": "-3.9",
+                                "6": "-1.0",
+                                "12": "-2.3"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M10",
+                        "periodName": "October",
+                        "value": "18605",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-386",
+                                "3": "-283",
+                                "6": "393",
+                                "12": "-136"
+                            },
+                            "pct_changes": {
+                                "1": "-2.0",
+                                "3": "-1.5",
+                                "6": "2.2",
+                                "12": "-0.7"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M09",
+                        "periodName": "September",
+                        "value": "18991",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "31",
+                                "3": "362",
+                                "6": "742",
+                                "12": "83"
+                            },
+                            "pct_changes": {
+                                "1": "0.2",
+                                "3": "1.9",
+                                "6": "4.1",
+                                "12": "0.4"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M08",
+                        "periodName": "August",
+                        "value": "18960",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "72",
+                                "3": "550",
+                                "6": "826",
+                                "12": "-148"
+                            },
+                            "pct_changes": {
+                                "1": "0.4",
+                                "3": "3.0",
+                                "6": "4.6",
+                                "12": "-0.8"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M07",
+                        "periodName": "July",
+                        "value": "18888",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "259",
+                                "3": "676",
+                                "6": "680",
+                                "12": "96"
+                            },
+                            "pct_changes": {
+                                "1": "1.4",
+                                "3": "3.7",
+                                "6": "3.7",
+                                "12": "0.5"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M06",
+                        "periodName": "June",
+                        "value": "18629",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "219",
+                                "3": "380",
+                                "6": "-81",
+                                "12": "-284"
+                            },
+                            "pct_changes": {
+                                "1": "1.2",
+                                "3": "2.1",
+                                "6": "-0.4",
+                                "12": "-1.5"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M05",
+                        "periodName": "May",
+                        "value": "18410",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "198",
+                                "3": "276",
+                                "6": "-241",
+                                "12": "-362"
+                            },
+                            "pct_changes": {
+                                "1": "1.1",
+                                "3": "1.5",
+                                "6": "-1.3",
+                                "12": "-1.9"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M04",
+                        "periodName": "April",
+                        "value": "18212",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-37",
+                                "3": "4",
+                                "6": "-529",
+                                "12": "-376"
+                            },
+                            "pct_changes": {
+                                "1": "-0.2",
+                                "3": "0.0",
+                                "6": "-2.8",
+                                "12": "-2.0"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M03",
+                        "periodName": "March",
+                        "value": "18249",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "115",
+                                "3": "-461",
+                                "6": "-659",
+                                "12": "-508"
+                            },
+                            "pct_changes": {
+                                "1": "0.6",
+                                "3": "-2.5",
+                                "6": "-3.5",
+                                "12": "-2.7"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M02",
+                        "periodName": "February",
+                        "value": "18134",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-74",
+                                "3": "-517",
+                                "6": "-974",
+                                "12": "-558"
+                            },
+                            "pct_changes": {
+                                "1": "-0.4",
+                                "3": "-2.8",
+                                "6": "-5.1",
+                                "12": "-3.0"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2012",
+                        "period": "M01",
+                        "periodName": "January",
+                        "value": "18208",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-502",
+                                "3": "-533",
+                                "6": "-584",
+                                "12": "-620"
+                            },
+                            "pct_changes": {
+                                "1": "-2.7",
+                                "3": "-2.8",
+                                "6": "-3.1",
+                                "12": "-3.3"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M13",
+                        "periodName": "Annual",
+                        "value": "18788",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "78",
+                                "3": "47",
+                                "6": "-4",
+                                "12": "-801"
+                            },
+                            "pct_changes": {
+                                "1": "0.4",
+                                "3": "0.3",
+                                "6": "0.0",
+                                "12": "-4.1"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M12",
+                        "periodName": "December",
+                        "value": "18710",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "59",
+                                "3": "-198",
+                                "6": "-203",
+                                "12": "-460"
+                            },
+                            "pct_changes": {
+                                "1": "0.3",
+                                "3": "-1.0",
+                                "6": "-1.1",
+                                "12": "-2.4"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M11",
+                        "periodName": "November",
+                        "value": "18651",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-90",
+                                "3": "-457",
+                                "6": "-121",
+                                "12": "-590"
+                            },
+                            "pct_changes": {
+                                "1": "-0.5",
+                                "3": "-2.4",
+                                "6": "-0.6",
+                                "12": "-3.1"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M10",
+                        "periodName": "October",
+                        "value": "18741",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-167",
+                                "3": "-51",
+                                "6": "153",
+                                "12": "-703"
+                            },
+                            "pct_changes": {
+                                "1": "-0.9",
+                                "3": "-0.3",
+                                "6": "0.8",
+                                "12": "-3.6"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M09",
+                        "periodName": "September",
+                        "value": "18908",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-200",
+                                "3": "-5",
+                                "6": "151",
+                                "12": "-980"
+                            },
+                            "pct_changes": {
+                                "1": "-1.0",
+                                "3": "0.0",
+                                "6": "0.8",
+                                "12": "-4.9"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M08",
+                        "periodName": "August",
+                        "value": "19108",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "316",
+                                "3": "336",
+                                "6": "416",
+                                "12": "-1003"
+                            },
+                            "pct_changes": {
+                                "1": "1.7",
+                                "3": "1.8",
+                                "6": "2.2",
+                                "12": "-5.0"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M07",
+                        "periodName": "July",
+                        "value": "18792",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-121",
+                                "3": "204",
+                                "6": "-36",
+                                "12": "-1105"
+                            },
+                            "pct_changes": {
+                                "1": "-0.6",
+                                "3": "1.1",
+                                "6": "-0.2",
+                                "12": "-5.6"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M06",
+                        "periodName": "June",
+                        "value": "18913",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "141",
+                                "3": "156",
+                                "6": "-257",
+                                "12": "-1352"
+                            },
+                            "pct_changes": {
+                                "1": "0.8",
+                                "3": "0.8",
+                                "6": "-1.3",
+                                "12": "-6.7"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M05",
+                        "periodName": "May",
+                        "value": "18772",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "184",
+                                "3": "80",
+                                "6": "-469",
+                                "12": "-1030"
+                            },
+                            "pct_changes": {
+                                "1": "1.0",
+                                "3": "0.4",
+                                "6": "-2.4",
+                                "12": "-5.2"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M04",
+                        "periodName": "April",
+                        "value": "18588",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-169",
+                                "3": "-240",
+                                "6": "-856",
+                                "12": "-1246"
+                            },
+                            "pct_changes": {
+                                "1": "-0.9",
+                                "3": "-1.3",
+                                "6": "-4.4",
+                                "12": "-6.3"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M03",
+                        "periodName": "March",
+                        "value": "18757",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "65",
+                                "3": "-413",
+                                "6": "-1131",
+                                "12": "-495"
+                            },
+                            "pct_changes": {
+                                "1": "0.3",
+                                "3": "-2.2",
+                                "6": "-5.7",
+                                "12": "-2.6"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M02",
+                        "periodName": "February",
+                        "value": "18692",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-136",
+                                "3": "-549",
+                                "6": "-1419",
+                                "12": "-304"
+                            },
+                            "pct_changes": {
+                                "1": "-0.7",
+                                "3": "-2.9",
+                                "6": "-7.1",
+                                "12": "-1.6"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2011",
+                        "period": "M01",
+                        "periodName": "January",
+                        "value": "18828",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-342",
+                                "3": "-616",
+                                "6": "-1069",
+                                "12": "-336"
+                            },
+                            "pct_changes": {
+                                "1": "-1.8",
+                                "3": "-3.2",
+                                "6": "-5.4",
+                                "12": "-1.8"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M13",
+                        "periodName": "Annual",
+                        "value": "19589",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "419",
+                                "3": "145",
+                                "6": "-308",
+                                "12": "270"
+                            },
+                            "pct_changes": {
+                                "1": "2.2",
+                                "3": "0.7",
+                                "6": "-1.5",
+                                "12": "1.4"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M12",
+                        "periodName": "December",
+                        "value": "19170",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-71",
+                                "3": "-718",
+                                "6": "-1095",
+                                "12": "227"
+                            },
+                            "pct_changes": {
+                                "1": "-0.4",
+                                "3": "-3.6",
+                                "6": "-5.4",
+                                "12": "1.2"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M11",
+                        "periodName": "November",
+                        "value": "19241",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-203",
+                                "3": "-870",
+                                "6": "-561",
+                                "12": "262"
+                            },
+                            "pct_changes": {
+                                "1": "-1.0",
+                                "3": "-4.3",
+                                "6": "-2.8",
+                                "12": "1.4"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M10",
+                        "periodName": "October",
+                        "value": "19444",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-444",
+                                "3": "-453",
+                                "6": "-390",
+                                "12": "266"
+                            },
+                            "pct_changes": {
+                                "1": "-2.2",
+                                "3": "-2.3",
+                                "6": "-2.0",
+                                "12": "1.4"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M09",
+                        "periodName": "September",
+                        "value": "19888",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-223",
+                                "3": "-377",
+                                "6": "636",
+                                "12": "275"
+                            },
+                            "pct_changes": {
+                                "1": "-1.1",
+                                "3": "-1.9",
+                                "6": "3.3",
+                                "12": "1.4"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M08",
+                        "periodName": "August",
+                        "value": "20111",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "214",
+                                "3": "309",
+                                "6": "1115",
+                                "12": "-246"
+                            },
+                            "pct_changes": {
+                                "1": "1.1",
+                                "3": "1.6",
+                                "6": "5.9",
+                                "12": "-1.2"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M07",
+                        "periodName": "July",
+                        "value": "19897",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-368",
+                                "3": "63",
+                                "6": "733",
+                                "12": "-349"
+                            },
+                            "pct_changes": {
+                                "1": "-1.8",
+                                "3": "0.3",
+                                "6": "3.8",
+                                "12": "-1.7"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M06",
+                        "periodName": "June",
+                        "value": "20265",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "463",
+                                "3": "1013",
+                                "6": "1322",
+                                "12": "591"
+                            },
+                            "pct_changes": {
+                                "1": "2.3",
+                                "3": "5.3",
+                                "6": "7.0",
+                                "12": "3.0"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M05",
+                        "periodName": "May",
+                        "value": "19802",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-32",
+                                "3": "806",
+                                "6": "823",
+                                "12": "399"
+                            },
+                            "pct_changes": {
+                                "1": "-0.2",
+                                "3": "4.2",
+                                "6": "4.3",
+                                "12": "2.1"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M04",
+                        "periodName": "April",
+                        "value": "19834",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "582",
+                                "3": "670",
+                                "6": "656",
+                                "12": "539"
+                            },
+                            "pct_changes": {
+                                "1": "3.0",
+                                "3": "3.5",
+                                "6": "3.4",
+                                "12": "2.8"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M03",
+                        "periodName": "March",
+                        "value": "19252",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "256",
+                                "3": "309",
+                                "6": "-361",
+                                "12": "491"
+                            },
+                            "pct_changes": {
+                                "1": "1.3",
+                                "3": "1.6",
+                                "6": "-1.8",
+                                "12": "2.6"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M02",
+                        "periodName": "February",
+                        "value": "18996",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "-168",
+                                "3": "17",
+                                "6": "-1361",
+                                "12": "335"
+                            },
+                            "pct_changes": {
+                                "1": "-0.9",
+                                "3": "0.1",
+                                "6": "-6.7",
+                                "12": "1.8"
+                            }
+                        }
+                    },
+                    {
+                        "year": "2010",
+                        "period": "M01",
+                        "periodName": "January",
+                        "value": "19164",
+                        "footnotes": [
+                            {
+                                "code": "R",
+                                "text": "Data were subject to revision on April 20, 2018."
+                            }
+                        ],
+                        "calculations": {
+                            "net_changes": {
+                                "1": "221",
+                                "3": "-14",
+                                "6": "-1082",
+                                "12": "442"
+                            },
+                            "pct_changes": {
+                                "1": "1.2",
+                                "3": "-0.1",
+                                "6": "-5.3",
+                                "12": "2.4"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
