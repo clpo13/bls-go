@@ -29,8 +29,8 @@ const uri = "https://api.bls.gov/publicAPI/v2/timeseries/data"
 
 // Footnote represents a footnote sent with the received data.
 type Footnote struct {
-	Code string `json:"code"`
-	Text string `json:"text"`
+	Code *string `json:"code,omitempty"`
+	Text *string `json:"text,omitempty"`
 }
 
 // Change represents calculations of change over 1, 3, 6, and 12 months.
@@ -120,7 +120,7 @@ func GetData(payload Payload) ResultData {
 	// Body returned as []byte, so convert to string to print it out.
 	//fmt.Printf("Raw response as a string:\n%v\n", string(body))
 
-	return parseData(body)
+	return ParseData(body)
 }
 
 // Reverse takes an array of Periods and reverses it.
@@ -131,8 +131,8 @@ func Reverse(a []Period) []Period {
 	return a
 }
 
-// Map JSON response to Go structs.
-func parseData(body []byte) ResultData {
+// ParseData maps a JSON response to Go structs.
+func ParseData(body []byte) ResultData {
 	var rd ResultData
 	err := json.Unmarshal(body, &rd)
 	if err != nil {
