@@ -46,7 +46,7 @@ func TestParse(t *testing.T) {
 		}
 	*/
 
-	f, err := ioutil.ReadFile("testdata.json")
+	f, err := ioutil.ReadFile("testdata/two-series.json")
 	if err != nil {
 		log.Fatalln("Error reading test data file:", err)
 	}
