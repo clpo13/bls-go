@@ -1,5 +1,6 @@
 # bls-go
 
+[![Build Status](https://travis-ci.org/clpo13/bls-go.svg?branch=master)](https://travis-ci.org/clpo13/bls-go)
 [![license](https://img.shields.io/badge/license-Apache%20v2-orange.svg)](https://raw.githubusercontent.com/clpo13/bls-go/master/LICENSE)
 [![GoDoc](https://godoc.org/github.com/clpo13/bls-go?status.svg)](https://godoc.org/github.com/clpo13/bls-go)
 
