@@ -37,7 +37,7 @@ feature requests using the GitHub [issues page](https://github.com/clpo13/bls-go
 
 ### To do list
 
-- [ ] Better error handling
+- [ ] Better error handling, especially when an invalid series is requested
 - [ ] Online API docs
 
 ## License

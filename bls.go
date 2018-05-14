@@ -105,11 +105,21 @@ type Payload struct {
 	Key     string   `json:"registrationkey,omitempty"`
 }
 
+// DataError is an error object that contains messages sent by the server.
+type DataError struct {
+	Msg     string
+	Details []string
+}
+
+func (e *DataError) Error() string {
+	return e.Msg
+}
+
 // GetData takes a Payload, converts it to JSON, and sends it to the specified
 // API endpoint. It returns a ResultData object that contains all the received
 // data for the given Payload.
-// TODO: return an error object instead of logging errors
-func GetData(payload Payload) ResultData {
+// TODO: return errors in an object instead of logging
+func GetData(payload Payload) (ResultData, error) {
 	jsonPayload, err := json.Marshal(payload)
 	if err != nil {
 		log.Fatalln("There was an error parsing the payload:", err)
@@ -142,11 +152,17 @@ func Reverse(a []Period) []Period {
 }
 
 // ParseData maps a JSON response to Go structs.
-func parseData(body []byte) ResultData {
+func parseData(body []byte) (ResultData, error) {
 	var rd ResultData
 	err := json.Unmarshal(body, &rd)
 	if err != nil {
 		log.Fatalln("There was an error parsing the JSON response:", err)
 	}
-	return rd
+
+	// If the status is anything but REQUEST_SUCCEEDED, there's a problem.
+	if rd.Status != "REQUEST_SUCCEEDED" {
+		return rd, &DataError{rd.Status, rd.Message}
+	}
+
+	return rd, nil
 }

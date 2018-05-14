@@ -1,0 +1,16 @@
+{
+    "status": "REQUEST_SUCCEEDED",
+    "responseTime": 161,
+    "message": [
+        "Invalid Series for Series FOO",
+        "Unable to get Catalog Data for series FOO"
+    ],
+    "Results": {
+        "series": [
+            {
+                "seriesID": "FOO",
+                "data": []
+            }
+        ]
+    }
+}

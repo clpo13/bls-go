@@ -24,8 +24,9 @@ import (
 // Test that the correct API endpoint is used.
 // NOTE: dummy test
 func TestURI(t *testing.T) {
-	if uri != "https://api.bls.gov/publicAPI/v2/timeseries/data" {
-		t.Error("Expected URI to be 'https://api.bls.gov/publicAPI/v2/timeseries/data', but got", uri)
+	expURI := "https://api.bls.gov/publicAPI/v2/timeseries/data"
+	if uri != expURI {
+		t.Errorf("Expected URI to be '%v', but got '%v'", expURI, uri)
 	}
 }
 
@@ -51,22 +52,25 @@ func TestParse(t *testing.T) {
 		log.Fatalln("Error reading test data file:", err)
 	}
 
-	tr := parseData(f)
+	tr, err := parseData(f)
+
+	expStatus := "REQUEST_SUCCEEDED"
+	expSeries := "LEU0254555900"
 
 	status := tr.Status
 	series1 := tr.Results.Series[0].SeriesID
 	catalog := tr.Results.Series[0].Catalog
-	if status != "REQUEST_SUCCEEDED" {
-		t.Error("Expected status to be 'REQUEST_SUCCEEDED', but got", status)
+	if status != expStatus {
+		t.Errorf("Expected status to be '%v', but got '%v'", expStatus, status)
 	}
-	if series1 != "LEU0254555900" {
-		t.Error("Expected first seriesID to be 'LEU0254555900', but got", series1)
+	if series1 != expSeries {
+		t.Errorf("Expected first seriesID to be '%v', but got '%v'", expSeries, series1)
 	}
 	if catalog != nil {
 		t.Error("Expected a nil value for catalog data, but got", catalog)
 	}
-	if len(tr.Message) == 0 {
-		t.Error("Expected to find 1 message, but found", len(tr.Message), "instead")
+	if len(tr.Message) != 1 {
+		t.Errorf("Expected to find 1 message, but found %v messages instead", len(tr.Message))
 	}
 }
 
@@ -91,6 +95,50 @@ func TestReverse(t *testing.T) {
 		got := Reverse(c.in)
 		if got[0].Name != c.want[0].Name {
 			t.Errorf("Reverse(%q) == %q, want %q", c.in, got, c.want)
+		}
+	}
+}
+
+// Test that a request with a bad series is handled properly.
+func TestBadSeries(t *testing.T) {
+	f, err := ioutil.ReadFile("testdata/bad-series.json")
+	if err != nil {
+		log.Fatalln("Error reading test data file:", err)
+	}
+
+	_, err = parseData(f)
+
+	if err != nil {
+		// Even with a bad series, the server still returns
+		// a REQUEST_SUCCEEDED status.
+		t.Error("Expected nil error, but got", err)
+	}
+
+	// TODO: handle empty data array
+}
+
+// Test that error messages sent by the server are stored.
+func TestErrorStatus(t *testing.T) {
+	f, err := ioutil.ReadFile("testdata/error-status.json")
+	if err != nil {
+		log.Fatalln("Error reading test data file:", err)
+	}
+
+	_, err = parseData(f)
+
+	if err == nil {
+		t.Error("Expected an error")
+	}
+
+	if aerr, ok := err.(*DataError); ok {
+		expMsg := "REQUEST_FAILED_INVALID_PARAMETERS"
+		expDetail := "startyear: Value must be a four-digit number."
+
+		if aerr.Msg != expMsg {
+			t.Errorf("Expected status to be '%v', but got '%v'", expMsg, aerr.Msg)
+		}
+		if aerr.Details[0] != expDetail {
+			t.Errorf("Expected error message to be '%v', but got '%v'", expDetail, aerr.Details[0])
 		}
 	}
 }
