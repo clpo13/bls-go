@@ -51,7 +51,7 @@ func TestParse(t *testing.T) {
 		log.Fatalln("Error reading test data file:", err)
 	}
 
-	tr := ParseData(f)
+	tr := parseData(f)
 
 	status := tr.Status
 	series1 := tr.Results.Series[0].SeriesID

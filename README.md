@@ -11,21 +11,34 @@
 
 ## Installation
 
-Build and install the program with `go install github.com/clpo13/bls-go`. This
-will install the main bls-go library. See the Usage section for how to interact
-with the library.
+After cloning the repository, build and install the library with
+`go install github.com/clpo13/bls-go`. See the [Usage](#Usage) section for how
+to interact with the library.
 
-Eventually, you'll be able to call `go get github.com/clpo13/bls-go` to install
-it and use `import "github.com/clpo13/bls-go"` in your own Go projects.
+Alternatively, you can call `go get -u github.com/clpo13/bls-go` to fetch and
+install the latest version of the library directly to your GOPATH.
 
 ## Usage
 
-Coming soon.
+In your `import` statement, add `"github.com/clpo13/bls-go"`. Now, you have
+access to `blsgo.GetData`, `blsgo.Payload`, and `blsgo.ResultData`, as well as
+a few other helper structs and functions. Run `go doc github.com/clpo13/bls-go`
+to get some basic information on the available objects.
+
+More detailed usage notes coming soon.
+
+An example program using this library can be found at
+<https://github.com/clpo13/bls-go-example.git>.
 
 ## Contributing
 
-Issues and pull requests are always welcome. Please file any bug reports using
-the GitHub [issues page](https://github.com/clpo13/bls-go/issues).
+Issues and pull requests are always welcome. Please file any bug reports or
+feature requests using the GitHub [issues page](https://github.com/clpo13/bls-go/issues).
+
+### To do list
+
+- [ ] Better error handling
+- [ ] Online API docs
 
 ## License
 

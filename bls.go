@@ -41,7 +41,8 @@ type Change struct {
 	TwelveMonth string `json:"12"`
 }
 
-// Calculation represents calculations sent with the received data.
+// Calculation represents net and percent change calculations sent with the
+// received data.
 type Calculation struct {
 	NetChange Change `json:"net_changes"`
 	PctChange Change `json:"pct_changes"`
@@ -76,12 +77,13 @@ type SeriesData struct {
 	Data     []Period `json:"data"`
 }
 
-// Series represents a JSON object containing arrays of series.
+// Series represents an array of series.
 type Series struct {
 	Series []SeriesData `json:"series"`
 }
 
-// ResultData represents the top-level structure of the received data.
+// ResultData represents the top-level structure of the received data,
+// including the response status and messages sent by the server.
 type ResultData struct {
 	Status       string   `json:"status"`
 	ResponseTime int      `json:"responseTime"`
@@ -89,25 +91,32 @@ type ResultData struct {
 	Results      Series   `json:"Results"`
 }
 
-// Payload defines the structure of data to be sent to an API endpoint.
+// Payload defines the structure of data to be sent to the API endpoint.
+// The start year, end year, and series ID are required, but other fields
+// are optional. Catalog, Calc, and Avg have no effect if an API key is
+// not also sent.
 type Payload struct {
 	Start   string   `json:"startyear"`
 	End     string   `json:"endyear"`
 	Series  []string `json:"seriesid"`
-	Catalog bool     `json:"catalog"`
-	Calc    bool     `json:"calculations"`
-	Avg     bool     `json:"annualaverage"`
-	Key     string   `json:"registrationkey"`
+	Catalog bool     `json:"catalog,omitempty"`
+	Calc    bool     `json:"calculations,omitempty"`
+	Avg     bool     `json:"annualaverage,omitempty"`
+	Key     string   `json:"registrationkey,omitempty"`
 }
 
 // GetData takes a Payload, converts it to JSON, and sends it to the specified
 // API endpoint. It returns a ResultData object that contains all the received
 // data for the given Payload.
+// TODO: return an error object instead of logging errors
 func GetData(payload Payload) ResultData {
 	jsonPayload, err := json.Marshal(payload)
 	if err != nil {
 		log.Fatalln("There was an error parsing the payload:", err)
 	}
+
+	// Debug: print out JSON payload
+	//log.Printf("Raw payload as a string:\n%v\n", string(jsonPayload))
 
 	// Set up an HTTP GET request.
 	resp, err := http.Post(uri, "application/json", bytes.NewBuffer(jsonPayload))
@@ -117,13 +126,14 @@ func GetData(payload Payload) ResultData {
 	defer resp.Body.Close()
 	body, err := ioutil.ReadAll(resp.Body)
 
-	// Body returned as []byte, so convert to string to print it out.
-	//fmt.Printf("Raw response as a string:\n%v\n", string(body))
+	// Debug: Body returned as []byte, so convert to string to print it out.
+	//log.Printf("Raw response as a string:\n%v\n", string(body))
 
-	return ParseData(body)
+	return parseData(body)
 }
 
-// Reverse takes an array of Periods and reverses it.
+// Reverse takes an array of Periods and reverses it. This can be useful as
+// the API returns data in descending order.
 func Reverse(a []Period) []Period {
 	for i, j := 0, len(a)-1; i < j; i, j = i+1, j-1 {
 		a[i], a[j] = a[j], a[i]
@@ -132,7 +142,7 @@ func Reverse(a []Period) []Period {
 }
 
 // ParseData maps a JSON response to Go structs.
-func ParseData(body []byte) ResultData {
+func parseData(body []byte) ResultData {
 	var rd ResultData
 	err := json.Unmarshal(body, &rd)
 	if err != nil {
