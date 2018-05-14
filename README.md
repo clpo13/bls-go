@@ -1,5 +1,8 @@
 # bls-go
 
+[![license](https://img.shields.io/badge/license-Apache%20v2-orange.svg)](https://raw.githubusercontent.com/clpo13/bls-go/master/LICENSE)
+[![GoDoc](https://godoc.org/github.com/clpo13/bls-go?status.svg)](https://godoc.org/github.com/clpo13/bls-go)
+
 **bls-go** is a Go interface for the public API provided by the United States
 [Bureau of Labor Statistics](https://www.bls.gov/).
 
@@ -28,7 +31,7 @@ to get some basic information on the available objects.
 More detailed usage notes coming soon.
 
 An example program using this library can be found at
-<https://github.com/clpo13/bls-go-example.git>.
+<https://github.com/clpo13/bls-go-example>.
 
 ## Contributing
 
@@ -38,7 +41,7 @@ feature requests using the GitHub [issues page](https://github.com/clpo13/bls-go
 ### To do list
 
 - [ ] Better error handling, especially when an invalid series is requested
-- [ ] Online API docs
+- [X] Online API docs
 
 ## License
 
