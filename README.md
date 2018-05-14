@@ -1,6 +1,7 @@
 # bls-go
 
 [![Build Status](https://travis-ci.org/clpo13/bls-go.svg?branch=master)](https://travis-ci.org/clpo13/bls-go)
+[![Build status](https://ci.appveyor.com/api/projects/status/t9scf67mx8wkhwgl/branch/master?svg=true)](https://ci.appveyor.com/project/clpo13/bls-go/branch/master)
 [![license](https://img.shields.io/badge/license-Apache%20v2-orange.svg)](https://raw.githubusercontent.com/clpo13/bls-go/master/LICENSE)
 [![GoDoc](https://godoc.org/github.com/clpo13/bls-go?status.svg)](https://godoc.org/github.com/clpo13/bls-go)
 
@@ -16,7 +17,7 @@
 ## Installation
 
 After cloning the repository, build and install the library with
-`go install github.com/clpo13/bls-go`. See the [Usage](#Usage) section for how
+`go install github.com/clpo13/bls-go`. See the [Usage](#usage) section for how
 to interact with the library.
 
 Alternatively, you can call `go get -u github.com/clpo13/bls-go` to fetch and
@@ -27,7 +28,8 @@ install the latest version of the library directly to your GOPATH.
 In your `import` statement, add `"github.com/clpo13/bls-go"`. Now, you have
 access to `blsgo.GetData`, `blsgo.Payload`, and `blsgo.ResultData`, as well as
 a few other helper structs and functions. Run `go doc github.com/clpo13/bls-go`
-to get some basic information on the available objects.
+to get some basic information on the available objects. The generated API docs
+can also be found at <https://godoc.org/github.com/clpo13/bls-go>.
 
 More detailed usage notes coming soon.
 
