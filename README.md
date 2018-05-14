@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/clpo13/bls-go.svg?branch=master)](https://travis-ci.org/clpo13/bls-go)
 [![Build status](https://ci.appveyor.com/api/projects/status/t9scf67mx8wkhwgl/branch/master?svg=true)](https://ci.appveyor.com/project/clpo13/bls-go/branch/master)
-[![license](https://img.shields.io/badge/license-Apache%20v2-orange.svg)](https://raw.githubusercontent.com/clpo13/bls-go/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/clpo13/bls-go.svg)](https://github.com/clpo13/bls-go/blob/master/LICENSE)
 [![GoDoc](https://godoc.org/github.com/clpo13/bls-go?status.svg)](https://godoc.org/github.com/clpo13/bls-go)
 
 **bls-go** is a Go interface for the public API provided by the United States
@@ -45,6 +45,7 @@ feature requests using the GitHub [issues page](https://github.com/clpo13/bls-go
 
 - [ ] Better error handling, especially when an invalid series is requested
 - [X] Online API docs
+- [ ] Usage notes and example code
 
 ## License
 

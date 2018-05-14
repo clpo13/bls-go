@@ -22,6 +22,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"strings"
 )
 
 // Default API endpoint
@@ -162,6 +163,17 @@ func parseData(body []byte) (ResultData, error) {
 	// If the status is anything but REQUEST_SUCCEEDED, there's a problem.
 	if rd.Status != "REQUEST_SUCCEEDED" {
 		return rd, &DataError{rd.Status, rd.Message}
+	}
+
+	// Check for messages about invalid series.
+	// TODO: check all messages, not just the first
+	if len(rd.Message) > 0 {
+		for _, v := range rd.Message {
+			if strings.HasPrefix(v, "Invalid Series") ||
+				strings.HasPrefix(v, "Series does not exist") {
+				return rd, &DataError{"An invalid series was requested", rd.Message}
+			}
+		}
 	}
 
 	return rd, nil

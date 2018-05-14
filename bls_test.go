@@ -108,16 +108,28 @@ func TestBadSeries(t *testing.T) {
 
 	_, err = parseData(f)
 
-	if err != nil {
-		// Even with a bad series, the server still returns
-		// a REQUEST_SUCCEEDED status.
-		t.Error("Expected nil error, but got", err)
+	if err == nil {
+		t.Error("Expected an error")
 	}
 
-	// TODO: handle empty data array
+	if aerr, ok := err.(*DataError); ok {
+		expMsg := "An invalid series was requested"
+		expDetail1 := "Invalid Series for Series FOO"
+		expDetail2 := "Unable to get Catalog Data for series FOO"
+
+		if aerr.Msg != expMsg {
+			t.Errorf("Expected status to be '%v', but got '%v'", expMsg, aerr.Msg)
+		}
+		if aerr.Details[0] != expDetail1 {
+			t.Errorf("Expected error message to be '%v', but got '%v'", expDetail1, aerr.Details[0])
+		}
+		if aerr.Details[1] != expDetail2 {
+			t.Errorf("Expected error message to be '%v', but got '%v'", expDetail2, aerr.Details[1])
+		}
+	}
 }
 
-// Test that error messages sent by the server are stored.
+// Test that error messages sent by the server are stored in an error struct.
 func TestErrorStatus(t *testing.T) {
 	f, err := ioutil.ReadFile("testdata/error-status.json")
 	if err != nil {
