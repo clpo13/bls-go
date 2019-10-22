@@ -94,7 +94,7 @@ func TestReverse(t *testing.T) {
 	for _, c := range cases {
 		got := Reverse(c.in)
 		if got[0].Name != c.want[0].Name {
-			t.Errorf("Reverse(%q) == %q, want %q", c.in, got, c.want)
+			t.Errorf("Reverse(%v) == %v, want %v", c.in, got, c.want)
 		}
 	}
 }
